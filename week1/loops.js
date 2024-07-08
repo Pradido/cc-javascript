@@ -25,23 +25,40 @@
 
 
 
-while (true){
-    // INPUT
-let number = prompt("Type in a number\nType 'close' to end the program");
-let message = "";
+// while (true){
+//     // INPUT
+// let number = prompt("Type in a number\nType 'close' to end the program");
+// let message = "";
 
-if (number === 'close'  || number === 'close'){
-    break;
-}
+// if (number === 'close'  || number === 'close'){
+//     break;
+// }
 
 
 //PROCESSING
-if (number % 2 === 0){
-    message = ('This is an even number.');
-} else {
-    message = 'This is an odd number';
-}
+// if (number % 2 === 0){
+//     message = ('This is an even number.');
+// } else {
+//     message = 'This is an odd number';
+// }
 
-// OUTPUT
-alert(message);
-}
+// // OUTPUT
+// alert(message);
+// }
+
+// let name = 'zito';
+// console.log('zito');
+
+// const interestRate = 0.3;
+// interestRate = 1;
+// console.log(interestRate);
+
+// let person = {
+//     name: 'Prada',
+//     age: 26
+// };
+// console.log(person); 
+
+// for(let count = 0; count <= 2 );
+
+
