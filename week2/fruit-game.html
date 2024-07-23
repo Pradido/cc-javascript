@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Game</title>
+    <style>
+        #score {
+            text-align:right;
+            margin-right: 50px;
+            padding: 10px;
+        }
+
+        #area {
+            position: relative;
+            border: 3px solid rgb(55, 79, 110);
+            border-radius: 10px;
+            width: 70%;
+            min-height: 70vh;
+            margin-left: 10%;
+            background-color: rgb(124, 182, 182);
+            
+        }
+
+        #fruit {
+            position: absolute;
+            width: 50px; 
+            left: 80%; 
+        }
+    </style>
+</head>
+<body>
+    
+    <h1 id="score">Score:</h1>
+    <div id="area">
+        <img id="fruit" src="apple-whole-solid.svg" alt="fruit">
+    
+        <script src="fruitGame.js"></script>
+    </div>
+</body>
+</html>

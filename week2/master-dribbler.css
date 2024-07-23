@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(17, 146, 135);
+}
+
+#pradinho {
+    text-align: left;
+    margin-left: 50px;
+    padding: 15px;
+}
+
+#scoreline {
+    text-align: right;
+    /* margin-right: 80px; */
+    padding-right: 80px;
+    
+}
+
+#pitch {
+    position: relative;
+    border: 3px solid rgba(127, 70, 160, 0.623);
+    border-radius: 12px;
+    width: 60%;
+    min-height: 70vh;
+    margin-left: 15%;
+    background-color: rgba(39, 175, 68, 0.842);
+}
+#baller {
+    position: absolute;
+    width: 100px;
+    top: 50%;
+    left: 45%;
+}
+
+.scoreboard {
+    width: 68%;
+    border: 4px solid;
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+    margin: 2% 0 2% 10%;
+    color: rgba(231, 19, 19, 0.788);
+}
+
+#lives {
+    color: rgb(245, 14, 14);
+}
+
