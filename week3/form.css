@@ -1,0 +1,23 @@
+.input{
+    display: flex;
+}
+.add{
+    display: flex;
+    justify-content: center;
+}
+input{
+
+    height: 20px;;
+}
+.div{
+    border: 2px solid black;
+ 
+}
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
